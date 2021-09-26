@@ -1,0 +1,190 @@
+/* Reset Css */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+}
+/* 
+1. vị Trí 
+2. Kích Thước (wight,heath)
+3. Màu Sắc
+4. Kiểu dáng 
+ */
+
+#main{
+
+}
+
+#header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 46px;
+    background-color: #282a35;
+    z-index: 1;
+}
+
+#nav{
+    display: inline-block;
+}
+
+#nav{
+    list-style-type: none;
+}
+
+
+
+#nav > li{
+    display:inline-block;
+    font-size: 18px;
+}
+
+#nav li{
+    position: relative;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+}
+
+#nav li .nav-arrow-down{
+    width: 14px;
+}
+
+#nav > li > a{
+    color: #f1f1f1; 
+    text-transform: uppercase;
+    
+}
+
+
+#nav li a{
+    text-decoration: none;  /* để bỏ gạch chân */
+    line-height: 46px ;
+    padding: 0 24px;
+    display: block;
+    font-size: 18px; 
+    font-weight: 500;
+}
+
+
+#nav > li:hover > a  {
+    color: #000000;
+    background-color: #ffc0c7;
+
+}
+
+/* #nav .subnav{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 160px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+} */
+
+/* #nav .subnav a{
+    color: #000;
+    padding: 0 12px;
+} */
+
+#header .search-btn{
+    float: right;
+    padding: 0 21px;
+      
+}
+
+/* #header .search-btn:hover{
+    background-color: #ccc;
+} */
+
+#header .search-btn .search-icon:hover {
+    color:coral;
+    cursor: pointer;  /* khi chọn vào sẽ chuyển thành bàn tay --> */
+}
+
+
+#header .search-icon{
+    color:#fff;
+    line-height: 46px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+#slider{
+    position: relative;
+    background-color:#eeeeee; 
+    margin-top: 46px; 
+    padding-top: 50%;
+    /* padding-bottom: 200px; */
+    /* background: url('/assets/css/img/slider/slider1.jpg') top center / cover no-repeat; */
+}
+
+#slider .img{
+    display: inline-block;
+    width: 75%;
+    margin-top: -444px;
+    margin-left: 170px;
+    padding-top: 50%;
+    margin-bottom: 50px;
+    background: url('https://photo-cms-giaoduc.zadn.vn/w700/Uploaded/2021/edxwpcqdh/2018_07_23/kinh_doanh_cong_nghe.jpg') top center / cover no-repeat; 
+
+}
+
+
+#slider .container {
+    margin-top: -40%;
+
+}
+
+
+#slider .text{
+    position: absolute;
+    top: 60px;
+    color: #000;
+    /* hai cach duoi giong nhau */
+    width: 100%;
+    /* left: 50%;
+    transform: translate(-50%); */
+    text-align: center;
+}
+
+#slider .text-heading{
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+#slider > .text > p {
+    font-weight: 500;
+}
+
+#slider .text-2{
+    font-size: 15px;
+}
+
+
+#footer{
+    height: 125px;
+    background-color: #383838;
+}
+
+.a-icon .icon-sheet{
+    display:block;
+    color: #fff;
+    font-weight: 600;
+    padding-top: 10px;
+    /* margin-top:10px; */
+    text-decoration: none;
+    
+}
+
+#footer .a-icon .icon-sheet i{
+    padding: 10px ;
+    font-size: 25px;
+}
+
